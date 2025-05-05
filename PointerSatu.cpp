@@ -14,4 +14,8 @@ int main(){
     mhs.nim = 5;
     mhs.ShowNim();
 
+    Mahasiswa &refmhs = mhs;
+    refmhs.nim = 2;
+    mhs.ShowNim();
+
 }
