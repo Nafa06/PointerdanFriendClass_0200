@@ -18,4 +18,8 @@ int main(){
     refmhs.nim = 2;
     mhs.ShowNim();
 
+    Mahasiswa *pMhs= &mhs;
+    pMhs->nim = 3;
+    pMhs->ShowNim();
+    return 0;
 }
