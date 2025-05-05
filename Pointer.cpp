@@ -9,3 +9,7 @@ class Dosen{
     }
 };
 
+class Staff{
+    public:
+    int nidn;
+};
