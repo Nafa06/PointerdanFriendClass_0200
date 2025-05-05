@@ -16,7 +16,7 @@ public:
 class Siswa
 {
 private:
-    int nilai;
+    int id;
 
 public:
     void setId(int pId);
@@ -27,3 +27,6 @@ void Orang::setNama(string pNama){
     nama = pNama;
 };
 
+void Siswa::setId(int pId){
+    id = pId;
+};
