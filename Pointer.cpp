@@ -13,3 +13,10 @@ class Staff{
     public:
     int nidn;
 };
+
+int main(){
+
+    
+
+
+}
