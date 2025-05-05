@@ -22,3 +22,8 @@ public:
     void setId(int pId);
     void displayAll(Orang &a);
 };
+
+void Orang::setNama(string pNama){
+    nama = pNama;
+};
+
