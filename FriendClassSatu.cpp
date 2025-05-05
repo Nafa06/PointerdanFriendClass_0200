@@ -35,4 +35,11 @@ void Siswa::displayAll(Orang &a){
     cout << id << endl << a.nama;
 }
 
-
+int main(){
+    Orang joko;
+    joko.setNama("Joko Susilo");
+    Siswa joko_siswa;
+    joko_siswa.setId(1);
+    joko_siswa.displayAll(joko);
+    return 0;
+}
