@@ -30,3 +30,9 @@ void Orang::setNama(string pNama){
 void Siswa::setId(int pId){
     id = pId;
 };
+
+void Siswa::displayAll(Orang &a){
+    cout << id << endl << a.nama;
+}
+
+
