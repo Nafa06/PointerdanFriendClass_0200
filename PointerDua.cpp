@@ -10,5 +10,9 @@ class Mahasiswa{
 };
 
 int main(){
-
+    Mahasiswa *mhs = new Mahasiswa{1};
+    mhs->nim = 2;
+    mhs->ShowNim();
+    delete mhs;
+    return 0;
 }
