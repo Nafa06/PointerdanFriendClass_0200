@@ -15,6 +15,10 @@ class Staff{
 };
 
 int main(){
+    Dosen ds;
+    ds.nama = "Giga";
+    ds.tampilnama();
+
 
     
 
