@@ -8,3 +8,7 @@ class Mahasiswa{
         cout << "No Induk " << nim << endl;
     }
 };
+
+int main(){
+
+}
